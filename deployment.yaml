@@ -19,6 +19,5 @@ spec:
         - containerPort: 80
       environment:
         - ports:"80:80"
-      volumes:
-        - /Users/tjletourneau/Documents/Website/html/website/index.html:/usr/share/nginx/html
+        -volumes:"/Users/tjletourneau/Documents/Website/html/website/index.html:/usr/share/nginx/html"
 

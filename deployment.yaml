@@ -17,4 +17,9 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
-        
+      env:
+        ports:
+          - "80:80"
+        volumes:
+          - /Users/tjletourneau/Documents/Website/html/website:/usr/share/nginx/html
+

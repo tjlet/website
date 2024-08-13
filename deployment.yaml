@@ -20,6 +20,5 @@ spec:
       env:
         ports:
           - "80:80"
-        volumes:
-          - /Users/tjletourneau/Documents/Website/html/website:/usr/share/nginx/html
+        volumes: /Users/tjletourneau/Documents/Website/html/website:/usr/share/nginx/html
 
